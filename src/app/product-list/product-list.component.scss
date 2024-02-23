@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.card-body {
+    padding: 15px;
+}
+  
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+  
+.card-text {
+    margin-bottom: 8px;
+}
+  
+.btn {
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+.a-class {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #3498db;
+    transition: background-color 0.3s ease;
+}
+  

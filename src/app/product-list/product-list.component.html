@@ -1,0 +1,20 @@
+<div class="container">
+    <h1>Product List</h1>
+  
+    <div *ngIf="products.length === 0">
+      <p>No products available.</p>
+    </div>
+  
+    <div *ngFor="let product of products" class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">{{ product.description }}</p>
+        <p class="card-text">Price: ${{ product.price }}</p>
+        <p class="card-text">Quantity: {{ product.quantity }}</p>
+        <button class="btn btn-primary" (click)="showProductDetails(product.id)"> Details </button>
+      </div>
+    </div>
+  </div>
+
+<br/>
+<br/>

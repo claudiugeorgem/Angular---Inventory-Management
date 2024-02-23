@@ -1,0 +1,29 @@
+<div class="app-container">
+  <div class="app-container-h">
+    <header class="app-header-h">
+      <nav class="app-navbar-h">
+        <div class="app-toolbar-h">
+          <h1 class="app-title-h">
+            <a routerLink="/home" class="navbar-brand">My Inventory App</a>
+          </h1>
+          <div class="app-nav-links-h">
+            <a routerLink="/products" class="app-button-h">Products</a>
+            <a routerLink="/add-product" class="app-button-h">Add Product</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+  
+  <main>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="container">
+      <p>My Inventory App</p>
+    </div>
+  </footer>
+</div>
